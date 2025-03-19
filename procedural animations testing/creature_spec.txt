@@ -1,0 +1,37 @@
+CREATURE BODY SPECIFICATION
+
+MAIN BODY PARTS:
+1. Torso
+   - Dimensions: 2 x 4 rectangle
+   - Position: Center reference point
+   - Connection points:
+     * Bottom left + 1/8 width: Hind leg attachment
+     * Bottom center: Middle leg attachment
+     * Bottom right - 1/8 width: Front leg attachment
+     * Lower left corner: Connects to abdomen
+     * Top right corner: Connects to head
+
+2. Abdomen
+   - Dimensions: 3 x 3 rectangle
+   - Joint: Upper right corner locks to torso's lower left corner
+
+3. Head
+   - Dimensions: 1 x 1 square
+   - Joint: Bottom left corner locks to torso's top right corner
+
+LEGS (3 identical structures):
+Each leg consists of 3 segments:
+- Upper segment
+- Middle segment
+- Lower segment
+
+Leg Attachment Points:
+1. Hind Leg: 1/8 distance from torso's bottom left corner
+2. Middle Leg: Center of torso's bottom edge
+3. Front Leg: 7/8 distance from torso's bottom left corner
+
+PHYSICS PROPERTIES:
+- All joints should allow rotational movement
+- Body parts should have appropriate mass distribution
+- Gravity affects all components
+- Collision detection between all body parts 
